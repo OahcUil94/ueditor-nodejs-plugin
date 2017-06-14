@@ -1,7 +1,7 @@
 var qiniu = require('qiniu');
 var config = require('./config').qiniu;
 
-module.exports.initQiniu(qiniu) = (qiniu)=> {
+module.exports.initQiniu = (qiniu)=> {
   qiniu.conf.ACCESS_KEY = config.ACCESS_KEY;
   qiniu.conf.SECRET_KEY = config.SECRET_KEY;
 };
