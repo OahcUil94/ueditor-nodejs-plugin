@@ -266,3 +266,7 @@ while (container.tagName != "BODY") {
     <div id="searchList" class="searchList"><ul id="searchListUl"></ul></div>
 </div>
 ```
+
+## 增加placeholder方法
+
+[http://tieba.baidu.com/p/4753750016](http://tieba.baidu.com/p/4753750016)
