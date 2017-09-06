@@ -270,3 +270,7 @@ while (container.tagName != "BODY") {
 ## 增加placeholder方法
 
 [http://tieba.baidu.com/p/4753750016](http://tieba.baidu.com/p/4753750016)
+
+## 添加多图片上传，文件大小超出限制具体提示
+文件位置：ueditor/dialogs/image/image.js
+把422行的`text = lang.errorExceedSize;`改成`text = lang.errorExceedSize + (imageMaxSize / 1024 / 1024 + 'M');`
